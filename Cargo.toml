@@ -1,0 +1,8 @@
+[package]
+name = "getrusage"
+version = "0.1.0"
+edition = "2024"
+description = "The getrusage Command Summarises Linux Resource Usage for Its Own Process or Reaped Children, Including CPU Time, Peak Memory, and Context Switches"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
